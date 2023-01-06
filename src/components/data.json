@@ -1,0 +1,30 @@
+[
+    {
+        "userName": "xQc",
+        "averageViewers": 70000,
+        "followers": 250000,
+        "subscribers": 50000,
+        "imageURL": null
+    },
+    {
+        "userName": "Kai Cenat",
+        "averageViewers": 80000,
+        "followers": 300000,
+        "subscribers": 100000,
+        "imageURL": null
+    }, 
+    {
+        "userName": "Shroud",
+        "averageViewers": 20000,
+        "followers": 100000,
+        "subscribers": 20000,
+        "imageURL": null
+    },
+    {
+        "userName": "tarik",
+        "averageViewers": 60000,
+        "followers": 150000,
+        "subscribers": 20000,
+        "imageURL": null
+    }
+]
