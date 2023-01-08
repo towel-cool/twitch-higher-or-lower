@@ -1,7 +1,9 @@
+import HomeContent from "../components/homeContent";
+
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <HomeContent />
     </div>
   );
 }

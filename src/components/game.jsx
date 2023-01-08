@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import { Navigate } from "react-router-dom";
 import data from './data.json'
 
 class Game extends Component {
     state = {
         score: 0,
+        lose: false,
         current: "",
         other: ""
     }
@@ -14,21 +16,24 @@ class Game extends Component {
     } 
 
     render() { 
+        if (this.state.lose) {
+            return <Navigate to="/lose" replace={true} />
+        }
         return (
-            <div className="text-center text-white text-4xl">
-                <div className="flex flex-row justify-center space-x-10">
+            <div className="flex flex-col justify-center items-center text-center text-white text-4xl">
+                <div className="flex flex-row space-x-10">
                     <h3 className="">Current: {this.state.current.userName}</h3>
                     <h3 className="">Other: {this.state.other.userName}</h3>
                 </div>
-                <div className="flex flex-col items-center space-y-2 m-2">
+                <div className="flex flex-col space-y-2">
                     <button 
-                    className="rounded-md border-2 border-purple-500 duration-150
+                    className="rounded-md border-4 border-purple-500 duration-150
                                 hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
                     onClick={() => this.handleHigherClick()}
                     >Higher</button>
 
                     <button 
-                    className="rounded-md border-2 border-purple-500 duration-150
+                    className="rounded-md border-4 border-purple-500 duration-150
                                 hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
                     onClick={() => this.handleLowerClick()}
                     >Lower</button>
@@ -36,6 +41,7 @@ class Game extends Component {
                 <h3>Score: {this.state.score}</h3>
             </div>
         );
+
     }
 
     getNewRandomStreamer() {
@@ -54,7 +60,7 @@ class Game extends Component {
             this.setState({other: this.getNewRandomStreamer()});
         }
         else {
-            alert("you lose");
+            this.setState({lose: true});
         }
     }
 
@@ -65,7 +71,7 @@ class Game extends Component {
             this.setState({other: this.getNewRandomStreamer()});
         }
         else {
-            alert("you lose");
+            this.setState({lose: true});
         }
     }
 
