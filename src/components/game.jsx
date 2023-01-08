@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navigate } from "react-router-dom";
+import Lose from "./lose"
 import data from './data.json'
 
 class Game extends Component {
@@ -10,6 +10,13 @@ class Game extends Component {
         other: ""
     }
 
+    constructor(props) {
+        super(props);
+        this.handleHigherClick = this.handleHigherClick.bind(this);
+        this.handleLowerClick = this.handleLowerClick.bind(this);
+        this.handlePlayAgainClick = this.handlePlayAgainClick.bind(this);
+    }
+
     componentDidMount() {
         this.setState({current: this.getNewRandomStreamer()})
         this.setState({other: this.getNewRandomStreamer()})
@@ -17,7 +24,7 @@ class Game extends Component {
 
     render() { 
         if (this.state.lose) {
-            return <Navigate to="/lose" replace={true} />
+            return <Lose finalScore={this.state.score} handlePlayAgainClick={this.handlePlayAgainClick} />
         }
         return (
             <div className="flex flex-col justify-center items-center text-center text-white text-4xl">
@@ -73,6 +80,13 @@ class Game extends Component {
         else {
             this.setState({lose: true});
         }
+    }
+
+    handlePlayAgainClick() {
+        this.setState({lose: false});
+        this.setState({score: 0});
+        this.setState({current: this.getNewRandomStreamer()});
+        this.setState({other: this.getNewRandomStreamer()});
     }
 
 }
