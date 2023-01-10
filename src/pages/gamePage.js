@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import Game from '../components/game';
 
-function GameScreen() {
+function GamePage() {
   return (
     <Fragment>
       <Game />
@@ -9,4 +9,4 @@ function GameScreen() {
   );
 }
 
-export default GameScreen;
+export default GamePage;

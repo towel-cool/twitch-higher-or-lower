@@ -18,12 +18,18 @@ class Game extends Component {
     }
 
     componentDidMount() {
-        this.setState({current: this.getNewRandomStreamer()})
-        this.setState({other: this.getNewRandomStreamer()})
+        this.setState({current: this.getNewRandomStreamer()});
+        this.setState({other: this.getNewRandomStreamer()});
     } 
 
     render() { 
+        if (document.cookie.length === 0) {
+            document.cookie = "0";
+        }
         if (this.state.lose) {
+            if (this.state.score > Number(document.cookie)) {
+                document.cookie = this.state.score.toString();
+            }
             return <Lose finalScore={this.state.score} handlePlayAgainClick={this.handlePlayAgainClick} />
         }
         return (
@@ -46,6 +52,7 @@ class Game extends Component {
                     >Lower</button>
                 </div>
                 <h3>Score: {this.state.score}</h3>
+                <h3>High Score: {document.cookie}</h3>
             </div>
         );
 

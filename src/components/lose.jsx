@@ -8,6 +8,7 @@ class Lose extends Component {
                 <div className="flex flex-col items-center">
                     <h1>You Lost! OMG IMAGINE</h1>
                     <h1>Final Score: {this.props.finalScore}</h1>
+                    <h1>High Score: {document.cookie}</h1>
                 </div>
                 <div className="flex flex-col space-y-2">
                     <button 

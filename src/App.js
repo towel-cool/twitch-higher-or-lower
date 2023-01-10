@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from './components/navbar'
 import Home from "./pages/homePage";
-import GameScreen from "./pages/gameScreen"; 
+import GamePage from "./pages/gamePage";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/twitchGame" element={<GameScreen />} />
+        <Route path="/twitchGame" element={<GamePage />} />
       </Routes>
     </Fragment>
       );
