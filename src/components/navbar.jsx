@@ -5,7 +5,7 @@ class Navbar extends Component {
     render() { 
         return (
             <div className="py-4">
-                <h1 className="text-center text-6xl text-purple-800"><Link to="/">Twitch Higher or Lower</Link></h1>
+                <h1 className="text-center text-6xl text-orange-500"><Link to="/">Twitch Higher or Lower</Link></h1>
             </div>
         );
     }

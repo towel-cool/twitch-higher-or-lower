@@ -35,19 +35,24 @@ class Game extends Component {
         return (
             <div className="flex flex-col justify-center items-center text-center text-white text-4xl">
                 <div className="flex flex-row space-x-10">
-                    <h3 className="">Current: {this.state.current.userName}</h3>
-                    <h3 className="">Other: {this.state.other.userName}</h3>
+                    <div>
+                        <h3 className="">Current: {this.state.current.userName}</h3>
+                        <h3>Avg Viewers: {this.state.current.averageViewers}</h3>
+                    </div>
+                    <div>
+                        <h3 className="">Other: {this.state.other.userName}</h3>
+                    </div>
                 </div>
                 <div className="flex flex-col space-y-2">
                     <button 
-                    className="rounded-md border-4 border-purple-500 duration-150
-                                hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
+                    className="rounded-md border-4 border-orange-500 duration-150
+                                hover:scale-110 hover:bg-orange-500 hover:text-stone-900" 
                     onClick={() => this.handleHigherClick()}
                     >Higher</button>
 
                     <button 
-                    className="rounded-md border-4 border-purple-500 duration-150
-                                hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
+                    className="rounded-md border-4 border-orange-500 duration-150
+                                hover:scale-110 hover:bg-orange-500 hover:text-stone-900" 
                     onClick={() => this.handleLowerClick()}
                     >Lower</button>
                 </div>
