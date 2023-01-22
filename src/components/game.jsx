@@ -45,14 +45,14 @@ class Game extends Component {
                 </div>
                 <div className="flex flex-col space-y-2">
                     <button 
-                    className="rounded-md border-4 border-orange-500 duration-150
-                                hover:scale-110 hover:bg-orange-500 hover:text-stone-900" 
+                    className="rounded-md border-4 border-purple-500 duration-150
+                                hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
                     onClick={() => this.handleHigherClick()}
                     >Higher</button>
 
                     <button 
-                    className="rounded-md border-4 border-orange-500 duration-150
-                                hover:scale-110 hover:bg-orange-500 hover:text-stone-900" 
+                    className="rounded-md border-4 border-purple-500 duration-150
+                                hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
                     onClick={() => this.handleLowerClick()}
                     >Lower</button>
                 </div>
