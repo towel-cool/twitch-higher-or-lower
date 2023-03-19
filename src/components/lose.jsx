@@ -6,7 +6,7 @@ class Lose extends Component {
         return (
             <div className="flex flex-col items-center justify-center text-white text-4xl">
                 <div className="flex flex-col items-center">
-                    <h1>You Lost! OMG IMAGINE</h1>
+                    <h1>You Lost!</h1>
                     <h1>Final Score: {this.props.finalScore}</h1>
                     <h1>High Score: {document.cookie}</h1>
                 </div>

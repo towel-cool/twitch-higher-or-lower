@@ -26,21 +26,26 @@ class Game extends Component {
         if (document.cookie.length === 0) {
             document.cookie = "0";
         }
+        //Lose 
         if (this.state.lose) {
             if (this.state.score > Number(document.cookie)) {
                 document.cookie = this.state.score.toString();
             }
             return <Lose finalScore={this.state.score} handlePlayAgainClick={this.handlePlayAgainClick} />
         }
+        //Playing
         return (
-            <div className="flex flex-col justify-center items-center text-center text-white text-4xl">
+            <div className="flex flex-col justify-center items-center 
+            text-center text-white text-4xl">
                 <div className="flex flex-row space-x-10">
-                    <div>
-                        <h3 className="">Current: {this.state.current.userName}</h3>
+                    <div className="fixed left-0">
+                        <h3>Current: {this.state.current.userName}</h3>
                         <h3>Avg Viewers: {this.state.current.averageViewers}</h3>
+                        <img src={this.state.current.imageURL} alt={this.state.current.userName} />
                     </div>
-                    <div>
-                        <h3 className="">Other: {this.state.other.userName}</h3>
+                    <div className="fixed right-0">
+                        <h3>Other: {this.state.other.userName}</h3>
+                        <img src={this.state.other.imageURL} alt={this.state.other.userName} />
                     </div>
                 </div>
                 <div className="flex flex-col space-y-2">
@@ -49,6 +54,8 @@ class Game extends Component {
                                 hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
                     onClick={() => this.handleHigherClick()}
                     >Higher</button>
+
+                    <h2>or</h2>
 
                     <button 
                     className="rounded-md border-4 border-purple-500 duration-150
@@ -65,7 +72,7 @@ class Game extends Component {
 
     getNewRandomStreamer() {
         //The number being multiplied by Math.random() corresponds the the number of streamers in the json file
-        let randomIndex = Math.random() * 4;
+        let randomIndex = Math.random() * 100;
         randomIndex = Math.floor(randomIndex);
 
         let newStreamer = data.at(randomIndex);

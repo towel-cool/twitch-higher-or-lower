@@ -1,30 +1,502 @@
 [
-    {
-        "userName": "xQc",
-        "averageViewers": 70000,
-        "followers": 250000,
-        "subscribers": 50000,
-        "imageURL": null
-    },
-    {
-        "userName": "Kai Cenat",
-        "averageViewers": 80000,
-        "followers": 300000,
-        "subscribers": 100000,
-        "imageURL": null
-    }, 
-    {
-        "userName": "Shroud",
-        "averageViewers": 20000,
-        "followers": 100000,
-        "subscribers": 20000,
-        "imageURL": null
-    },
-    {
-        "userName": "tarik",
-        "averageViewers": 60000,
-        "followers": 150000,
-        "subscribers": 20000,
-        "imageURL": null
-    }
+	{
+		"userName": "ibai",
+		"averageViewers": 80046,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/574228be-01ef-4eab-bc0e-a4f6b68bedba-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "TheGrefg",
+		"averageViewers": 21966,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/de4cee58-aee7-400d-b823-32aa7a1d3235-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "aminematue",
+		"averageViewers": 46868,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13e55cbe-a1b0-4f4c-b69b-2748274b9e48-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Squeezie",
+		"averageViewers": 33514,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/df3e5800-b524-4c4e-87b0-8b3646d9185a-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Riot Games (riotgames)",
+		"averageViewers": 51692,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/687eca1d-7479-4770-ab2c-fdac418e6c08-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "kingsleague",
+		"averageViewers": 201997,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/cc310a6e-8cee-435b-af4c-5b480b791037-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Riot_esports_Korea",
+		"averageViewers": 45981,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/446206f8-0acf-4090-8948-89c09794ccbc-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Gaules",
+		"averageViewers": 17908,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f4b12683-57ff-4b57-926a-67512b43a7ff-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "PGL",
+		"averageViewers": 73331,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/ad9d3702-8644-4172-9372-e90e7a0eeeff-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "thegameawards",
+		"averageViewers": 66343,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0a298ae-e395-46a2-8101-92b1f5fe5282-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "ESL_CSGO",
+		"averageViewers": 13464,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/1975b18f-fa7d-443f-b191-fba08f92f3a2-profile_image-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "aXoZer",
+		"averageViewers": 4357,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/0020626c-586e-4863-9124-8561fa7ffc33-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Asmongold",
+		"averageViewers": 62454,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/asmongold-profile_image-f7ddcbd0332f5d28-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Kamet0",
+		"averageViewers": 16041,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/9e12862d-a8d0-4df2-81aa-e2241022dc98-profile_image-150x150.jpg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "auronplay",
+		"averageViewers": 87379,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/bf1d52e3-b46b-4c07-9b4f-a1ab8c4e40f8-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "QTCinderella",
+		"averageViewers": 6321,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/051f2eb6-fac4-4921-bf65-b87f2177939c-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "dota2ti",
+		"averageViewers": 169246,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/19b286b5-d586-433b-91fa-6070640fc8a3-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Rubius",
+		"averageViewers": 34041,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/a2592e98-5ba6-4c9a-9d9e-cf036d6f64c2-profile_image-150x150.jpg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "csgo_mc",
+		"averageViewers": 18690,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/feb6eac7-b564-4b7b-aa8c-c441088da0bd-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "GenshinImpactOfficial",
+		"averageViewers": 202124,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/9a8db818-27c1-483f-b507-729869f20d10-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "casimito",
+		"averageViewers": 30952,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/32805a78-d927-48bd-8089-bf5efed53ea4-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "LEC",
+		"averageViewers": 47717,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/63c19b2b-c22f-4a16-ba6b-82fbef8c8b36-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Warframe",
+		"averageViewers": 31141,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/6afb962a-a61d-4b6c-a665-01e5efb72249-profile_image-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Bungie",
+		"averageViewers": 93092,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/bungie-profile_image-9437066b0a491c6e-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "xQc",
+		"averageViewers": 65174,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/xqc-profile_image-9298dca608632101-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "LCK",
+		"averageViewers": 36570,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/04b097ac-9a71-409e-b30e-570175b39caf-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "dota2ti_ru",
+		"averageViewers": 76016,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/7166a1ba-75aa-44cc-bd8b-4a6d8b32b3c0-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "ESL_CSGOb",
+		"averageViewers": 11978,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/88ebc32c-7684-4cbd-a4fe-c26997ad8875-profile_image-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "KaiCenat",
+		"averageViewers": 55548,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/1d8cd548-04fa-49fb-bfcd-f222f73482b6-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "VALORANT",
+		"averageViewers": 24495,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/d534b100-48a4-4ef9-9210-37fcf40ec784-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "BrawlStars",
+		"averageViewers": 21746,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/adfd3523-d4a1-4022-a500-e0ea406bf23f-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "ZeratoR",
+		"averageViewers": 14865,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/599b546a-c27f-4684-93ff-5eeecd01fb2b-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "PaulinhoLOKObr",
+		"averageViewers": 65542,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/d96bbd7a-26e5-4c5e-b6a5-149d708a973b-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "AdinRoss",
+		"averageViewers": 61441,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/10c197cb-295f-4d40-8a6c-26a0a5da22ee-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "ESL_DOTA2",
+		"averageViewers": 18605,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/52ef5525-b19f-44f1-b342-2a7e33c45cc3-profile_image-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "RocketLeague",
+		"averageViewers": 39830,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f182bee-012a-4955-9bd2-55d903f84276-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "SLAKUN10",
+		"averageViewers": 10010,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/7d462614-fd45-405c-a0d7-f628f68549e5-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "LCS",
+		"averageViewers": 27576,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f207b3aa-179d-487b-addf-a09e81b440fd-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "BLASTPremier",
+		"averageViewers": 42566,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/1216f81a-2fdb-4df6-9eeb-972c191964fd-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Xbox",
+		"averageViewers": 1106,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/5d72076d-61c0-4dab-83f1-09a45c5797d5-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "n3koglai",
+		"averageViewers": 25009,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/4a5ae123-95f0-4127-9be7-714f91cd0d17-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Pestily",
+		"averageViewers": 8568,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/6d33e15c-f918-468f-9a29-f56399786532-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "ElSpreen",
+		"averageViewers": 52015,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/d4885242-febf-4a11-a42a-a0ad52474ee2-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "juansguarnizo",
+		"averageViewers": 27578,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/74586414-e27b-4347-89c5-109e42ac3e1d-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "elxokas",
+		"averageViewers": 14468,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/198c0fe9-cf41-4ef1-ad55-405c1e599f25-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "playapex",
+		"averageViewers": 33706,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/da99ca95-5234-4538-abba-f107f5e8401f-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "AvalancheSoftware",
+		"averageViewers": 85159,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/645c92ae-596e-43cd-886b-b6faaaf25719-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Quackity",
+		"averageViewers": 54347,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/823b1a32-eb4e-425a-b1e6-48913ed58f1b-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Etoiles",
+		"averageViewers": 8432,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/4eecaab8-4de3-4bcc-b2b7-f3a03e8273a8-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Nix",
+		"averageViewers": 25055,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/c8ff98b9-b235-47c1-8079-ad10f5099dc2-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "loud_coringa",
+		"averageViewers": 40647,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/c07acddc-1e1b-479f-97c4-09636f80e857-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "otplol_",
+		"averageViewers": 7312,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/787bd9dd-9367-45ed-a44d-d755427549b8-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "coscu",
+		"averageViewers": 5509,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/4de1a3ee-1b98-4c6c-9ba8-01a1e45c9fb9-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Domingo",
+		"averageViewers": 17923,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/3cdae7df-600c-4833-8dfe-8d2abc5a3b25-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Shadoune666",
+		"averageViewers": 1223,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/c2b4e3fa-f82b-4d1b-9731-1b48c1bc59ec-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "AmazonMusic",
+		"averageViewers": 9472,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/796d0dc7-4de3-4f26-9cd6-af88cf438df7-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "eliasn97",
+		"averageViewers": 31946,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/4fb94c7a-b4c0-4ed1-9782-b630a59915d5-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "tarik",
+		"averageViewers": 26387,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f04d2a14-8d63-4cd5-a469-7ec2cd6e5ce3-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "LLA",
+		"averageViewers": 19325,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/badd69bc-50a6-4a82-8a73-22d602633a01-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "GeorgeNotFound",
+		"averageViewers": 35924,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/ff238566-dc40-4849-8f80-8fbbcfaabbc9-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "CBLOL",
+		"averageViewers": 28999,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/8293c341-9a4a-4052-98b4-049781ae2cc0-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "daftpunk",
+		"averageViewers": 97424,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/ed14cff1-451e-4f47-8e3b-821a8092193d-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "IlloJuan",
+		"averageViewers": 36429,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/37454f0e-581b-42ba-b95b-416f3113fd37-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "pgl_csgo",
+		"averageViewers": 26033,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/8689b137-6322-4391-a171-1462721fe973-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "LVNDMARK",
+		"averageViewers": 11113,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/8dcaf96d-68ee-4fc6-bfdc-fdfc564e134a-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Call of Duty (callofduty)",
+		"averageViewers": 46583,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce51a4e2-ed9a-41db-add1-38eaa8e830b4-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Elraenn",
+		"averageViewers": 26961,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/0294fec8-8572-4517-9b60-12e0705a8893-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Datto",
+		"averageViewers": 3187,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/84260827-d3bb-45cb-a8e3-961d554545db-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Echo_Esports",
+		"averageViewers": 18756,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/c2bcd327-270b-4f15-8e0e-7cb0b3e3873a-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "MavsGG",
+		"averageViewers": 200,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/7e83367b-e15e-498a-bcc6-6197a34e266b-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Evo",
+		"averageViewers": 44038,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/ce45e61c-1eba-400a-a67a-5cebb1fbfb53-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "PGL_Dota2",
+		"averageViewers": 31147,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/3122eea9-cf3b-4567-8949-2eda9912a444-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "mafianmx",
+		"averageViewers": 23663,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/135754e3-5ad3-4a5c-bb81-6cb968b6f6d0-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "HasanAbi",
+		"averageViewers": 32127,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/0347a9aa-e396-49a5-b0f1-31261704bab8-profile_image-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "luisenrique21",
+		"averageViewers": 47794,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/3a867eb8-ceb4-4d4b-a6a5-2be594442078-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "SypherPK",
+		"averageViewers": 6017,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/75260307-584a-4eb7-99ba-d2708d27795e-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "VALORANT_BR",
+		"averageViewers": 13202,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/8665eabb-4872-45d5-9b47-409ba5f3274a-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Cellbit",
+		"averageViewers": 15928,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/0595cdd0-65a7-4fa3-996d-323cf3a54be1-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Rainbow6",
+		"averageViewers": 23322,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/caf506c7-37c3-4a3c-99a0-b1dd921261b4-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "A_Seagull",
+		"averageViewers": 7298,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/a_seagull-profile_image-4d2d235688c7dc66-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Jahrein",
+		"averageViewers": 15703,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/a8a5da7b-5d96-4206-a3be-b3628c4d0f35-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "PrimeVideo",
+		"averageViewers": 43564,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/b6095450-4712-4ff9-9215-930fbb45503e-profile_image-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "bratishkinOFF",
+		"averageViewers": 13184,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/13195ec4-0ef2-459a-bcb7-a27f8bab67a1-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "gerardromero",
+		"averageViewers": 6246,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/18f3af06-2122-45ed-aad5-dcbedfbb1130-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Sardoche",
+		"averageViewers": 7776,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/2b1b9e13-5b9f-41ee-b375-54d3c6491bb2-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "WestCOL",
+		"averageViewers": 18123,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/239e349f-c0e4-4cc6-aec9-911224268e5b-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "bysTaXx",
+		"averageViewers": 5204,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/5a74ee2b-fdc4-4e18-b571-9118ca5ecbff-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Trymacs",
+		"averageViewers": 18725,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/22a56845-20d0-4e14-932e-0ec099b088eb-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Sapnap",
+		"averageViewers": 29813,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/107a3c5e-ab5c-4e73-81ab-b11591ee477c-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "scump",
+		"averageViewers": 18332,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/scump-profile_image-bbaf98441dd6e786-150x150.jpeg?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Opera_GX",
+		"averageViewers": 9711,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f5e3bb9f-47d0-41e4-86a5-4903540ca286-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Fextralife",
+		"averageViewers": 19255,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/a28b0d37-81d0-415a-8ed8-1a1f998ea26d-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "MontanaBlack88",
+		"averageViewers": 29006,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/6f36c08a-6f7d-40f1-a9e8-12eee2ff0f93-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "LVPes",
+		"averageViewers": 16219,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/lvpes-profile_image-b9a288b926641fe4-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "Evelone192",
+		"averageViewers": 28687,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f26a992a-a661-4697-bfa4-7ca7f400b929-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "ElMariana",
+		"averageViewers": 39460,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/0107210e-a98c-409d-92a6-1caf70bb3953-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "y4splz",
+		"averageViewers": 2319,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/76aac472-1982-494d-aff6-0fde63a72f00-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "ZEvent",
+		"averageViewers": 9452,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/b9a07f0c-4350-46d8-9b0c-95bed68e008d-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "pathofexile",
+		"averageViewers": 65285,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/5fd2e8ae-9d18-4a05-895c-e7f3bf436534-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	},
+	{
+		"userName": "lolpacifictw",
+		"averageViewers": 14871,
+		"imageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/3a0a20f0-b3b1-4c9b-bfa7-baba9dda8d7e-profile_image-150x150.png?imenable=1&impolicy=user-profile-picture&imwidth=100"
+	}
 ]
