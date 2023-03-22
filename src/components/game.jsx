@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import Lose from "./lose"
 import data from './data.json'
 
@@ -23,49 +23,53 @@ class Game extends Component {
     } 
 
     render() { 
+        //Check for existing cookie
         if (document.cookie.length === 0) {
             document.cookie = "0";
         }
-        //Lose 
+        //Lose state
         if (this.state.lose) {
             if (this.state.score > Number(document.cookie)) {
                 document.cookie = this.state.score.toString();
             }
             return <Lose finalScore={this.state.score} handlePlayAgainClick={this.handlePlayAgainClick} />
         }
-        //Playing
+        //Playing state
         return (
-            <div className="flex flex-col justify-center items-center 
-            text-center text-white text-4xl">
-                <div className="flex flex-row space-x-10">
-                    <div className="fixed left-0">
+            <Fragment>
+                <div className="flex flex-row justify-center gap-8
+                text-center text-white text-4xl">
+                    <div>
                         <h3>Current: {this.state.current.userName}</h3>
                         <h3>Avg Viewers: {this.state.current.averageViewers}</h3>
                         <img src={this.state.current.imageURL} alt={this.state.current.userName} />
                     </div>
-                    <div className="fixed right-0">
-                        <h3>Other: {this.state.other.userName}</h3>
+                    <div>
+                        <h3>"{this.state.other.userName}"</h3>
+                        <h4 className="text-2xl">has</h4>
+                        <div className="flex flex-col space-y-2">
+                            <button 
+                            className="rounded-md border-4 border-purple-500 duration-150
+                                        hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
+                            onClick={() => this.handleHigherClick()}
+                            >Higher</button>
+                            <h2>or</h2>
+                            <button 
+                            className="rounded-md border-4 border-purple-500 duration-150
+                                        hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
+                            onClick={() => this.handleLowerClick()}
+                            >Lower</button>
+                        </div>
+                        <h4 className="text-2xl">average viewers than {this.state.current.userName}</h4>
                         <img src={this.state.other.imageURL} alt={this.state.other.userName} />
                     </div>
                 </div>
-                <div className="flex flex-col space-y-2">
-                    <button 
-                    className="rounded-md border-4 border-purple-500 duration-150
-                                hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
-                    onClick={() => this.handleHigherClick()}
-                    >Higher</button>
-
-                    <h2>or</h2>
-
-                    <button 
-                    className="rounded-md border-4 border-purple-500 duration-150
-                                hover:scale-110 hover:bg-purple-500 hover:text-stone-900" 
-                    onClick={() => this.handleLowerClick()}
-                    >Lower</button>
+                <div className="flex flex-col 
+                text-white text-2xl">
+                    <h3>Score: {this.state.score}</h3>
+                    <h3>High Score: {document.cookie}</h3>
                 </div>
-                <h3>Score: {this.state.score}</h3>
-                <h3>High Score: {document.cookie}</h3>
-            </div>
+            </Fragment>
         );
 
     }
